@@ -405,12 +405,29 @@ body {
   position: absolute;
   bottom: -15px;
   padding: 5px 15px;
-  color: #fff;
-  background: linear-gradient(
-    11deg,
+  width: 438px;
+  height: 80px;
+  background: -o-linear-gradient(
+    250deg,
     rgba(61, 25, 0, 0.96) 0,
     rgba(162, 106, 66, 0.96) 100%
   );
+  background: linear-gradient(
+    -160deg,
+    rgba(61, 25, 0, 0.96) 0,
+    rgba(162, 106, 66, 0.96) 100%
+  );
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: -1px;
+  -webkit-box-shadow: -1px 1px 56px 4px rgba(74, 30, 0, 0.74);
+  box-shadow: -1px 1px 56px 4px rgba(74, 30, 0, 0.74);
+  border: none;
 }
 .primary-text {
   width: 585px;
@@ -779,6 +796,11 @@ body {
     font-size: 16px;
   }
   .header-btn__item {
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .LoadMoreBTN {
     width: 300px;
     height: 50px;
     font-size: 16px;
