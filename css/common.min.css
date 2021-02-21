@@ -234,7 +234,7 @@ body {
   transform: translate(0, -10%);
 }
 .header-right img {
-  width: 610px;
+  width: 775px;
 }
 .works {
   width: 100%;
@@ -455,7 +455,7 @@ body {
 }
 .primary-text p {
   margin: 0;
-  font-size: 37px;
+  font-size: 36px;
   font-weight: 300;
   padding: 0;
 }
