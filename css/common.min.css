@@ -406,7 +406,7 @@ body {
 
 .LoadMoreBTN {
   position: absolute;
-  bottom: -6.2%;
+  bottom: -7%;
   padding: 5px 15px;
   text-transform: uppercase;
   letter-spacing: 7.2px;
@@ -649,7 +649,7 @@ body {
 
 @media (max-width: 1605px) {
   .LoadMoreBTN{
-    bottom: -4.4%;
+    bottom: -4.7%;
   }
   .works-box__item {
     width: 50%;
