@@ -14,7 +14,7 @@ let work = document.querySelector(".works-box"),
 items = Array.from(work.querySelectorAll(".works-box__item")),
 loadMore = document.getElementById("loadMore"),
 maxItems = 6,
-loadItems = 3,
+loadItems = 6,
 hiddenClass = "hiddenStyle",
 hiddenItems = Array.from(document.querySelectorAll(".hiddenStyle"));
 
@@ -23,6 +23,7 @@ items.forEach(function (item, index) {
     item.classList.add(hiddenClass);
   }
 });
+
 
 loadMore.addEventListener("click", function () {
   [].forEach.call(document.querySelectorAll("." + hiddenClass), function (

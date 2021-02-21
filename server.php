@@ -1,6 +1,4 @@
 <?php
-    // $_POST = json_decode(file_get_contents("php://input"), true);
-    // echo var_dump($_POST);
 
     $token = "1694430248:AAFrxwCz4UJVMs7rvS_4YjwCZOvd3sbif8I";
 
