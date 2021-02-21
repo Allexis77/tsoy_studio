@@ -263,7 +263,7 @@ body {
   margin: 0;
   padding: 0;
   width: 33.334%;
-  max-height: 630px;
+  max-height: 500px;
   overflow: hidden;
   position: relative;
 }
@@ -409,7 +409,7 @@ body {
 
 .LoadMoreBTN {
   position: absolute;
-  bottom: -7%;
+  bottom: -9%;
   padding: 5px 15px;
   text-transform: uppercase;
   letter-spacing: 7.2px;
@@ -657,7 +657,7 @@ body {
 
 @media (max-width: 1605px) {
   .LoadMoreBTN {
-    bottom: -4.7%;
+    bottom: -9%;
   }
   .works-box__item {
     width: 33.3334%;
@@ -671,8 +671,7 @@ body {
   }
 
   .focus-box {
-    width: 29%;
-    left: 30%;
+    left: 40%;
   }
 
   .primary-text h3 {
@@ -942,6 +941,9 @@ body {
   .header-left {
     width: 100%;
   }
+  .header-left__h {
+    width: 95%;
+  }
   .header-left__box,
   .header-btn {
     padding: 0 20px;
@@ -957,7 +959,7 @@ body {
   }
   .primary-text h3 {
     font-size: 14px;
-    width: 100%;
+    width: 70%;
   }
   .primary-text p {
     font-size: 12px;
@@ -978,6 +980,12 @@ body {
   }
   .form {
     height: 520px;
+  }
+  .header-btn__item {
+    width: 285px;
+  }
+  .header-left__box {
+    height: 375px;
   }
 }
 
